@@ -1,0 +1,962 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fern Aila Asiñero — IT student who tests, builds, and designs software.">
+  <meta name="author" content="Fern Aila Asiñero">
+  <title>FAWN</title>
+
+  <!-- Google Fonts Preconnect & Load -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Sticky Header & Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <a href="#home" class="logo" aria-label="Fern Aila Asiñero Home">Fawn.</a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav"
+        aria-label="Toggle navigation menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav id="primary-nav" class="nav-menu" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#qa" class="nav-link">QA</a></li>
+          <li><a href="#game" class="nav-link">Game Dev</a></li>
+          <li><a href="#design" class="nav-link">Design</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main id="main-content">
+
+    <!-- ================================================================= -->
+    <!-- SECTION 1: HOME / ABOUT                                           -->
+    <!-- ================================================================= -->
+    <section id="home" class="hero-section" aria-label="About and Introduction">
+      <div class="container hero-container">
+
+        <!-- Hero Text Column -->
+        <div class="hero-text fade-in">
+
+          <h1 class="hero-name">Fern Aila Asiñero</h1>
+          <p class="hero-tagline">IT student who tests, builds, and designs software.</p>
+
+          <p class="hero-intro">
+            I'm a BS Information Technology student at Bukidnon State University, based in Malaybalay City, Bukidnon,
+            Philippines. I've worked across the full software lifecycle — from writing requirements, executing test
+            cases,
+            basic programming, to designing and pitching presentations. Currently seeking IT, QA, and multimedia
+            internships.
+          </p>
+
+          <!-- Contact Details Note -->
+          <div class="contact-quick-info">
+            <span class="contact-item">
+              <svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <a href="mailto:fernasinero@gmail.com" class="link-inline">fernasinero@gmail.com</a>
+            </span>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="cta-actions">
+            <!-- PLACEHOLDER: Place resume.pdf in assets/docs/resume.pdf -->
+            <a href="assets/docs/resume.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download Resume
+            </a>
+
+            <a href="mailto:fernasinero@gmail.com" class="btn btn-outline">
+              <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Email Me
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Photo Column -->
+        <div class="hero-photo-col fade-in">
+          <div class="profile-frame">
+            <div class="profile-container" id="profile-container">
+              <!-- PLACEHOLDER: Place profile photo in assets/images/profile.jpg -->
+              <img src="assets/images/profile.jpeg" alt="Fern Aila Asiñero" class="profile-img" id="profile-img">
+              <span class="profile-fallback" id="profile-fallback" aria-hidden="true">FA</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Highlights Row -->
+      <div class="container highlights-container fade-in">
+        <ul class="highlights-grid" aria-label="Key accomplishments and stats">
+          <li class="stat-card">
+            <span class="stat-number">153</span>
+            <span class="stat-label">Test Cases Executed Across Projects</span>
+          </li>
+          <li class="stat-card">
+            <span class="stat-number">28</span>
+            <span class="stat-label">Defects Documented</span>
+          </li>
+          <li class="stat-card">
+            <span class="stat-number">Best Pitch Deck</span>
+            <span class="stat-label">out of 16 Teams</span>
+          </li>
+          <li class="stat-card">
+            <span class="stat-number">2</span>
+            <span class="stat-label">CCNA Certifications</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Leadership & Recognition Strip -->
+      <div class="container recognition-container fade-in">
+        <aside class="recognition-strip" aria-label="Leadership and Scholastic Honors">
+          <h3 class="recognition-heading">Leadership &amp; Scholastic Honors</h3>
+          <div class="recognition-pills-row">
+            <span class="recognition-pill">
+              <span class="pill-dot"></span>
+              Deputy Director for Externals — Northern Mindanao Association of DOST-SEI Scholars (Present)
+            </span>
+            <span class="recognition-pill">
+              <span class="pill-dot"></span>
+              START DOST Member
+            </span>
+            <span class="recognition-pill">
+              <span class="pill-dot"></span>
+              President — BukSU Association of DOST-SEI Scholars (2025-2026)
+            </span>
+
+            <span class="recognition-pill">
+              <span class="pill-dot"></span>
+              DOST Undergraduate Scholar (nearly 4 years)
+            </span>
+            <span class="recognition-pill highlight-gold">
+              <span class="pill-dot"></span>
+              Civil Service Exam Passer — 93.3%
+            </span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- SECTION 2: QUALITY ASSURANCE                                      -->
+    <!-- ================================================================= -->
+    <section id="qa" class="section qa-section" aria-labelledby="qa-heading">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 id="qa-heading" class="section-title">Quality Assurance</h2>
+          <p class="section-subtitle">Process-driven testing from requirements to resolution.</p>
+        </div>
+
+        <!-- Testing Workflow Diagram -->
+        <div class="workflow-card fade-in">
+          <h3 class="workflow-title">Testing Workflow Lifecycle</h3>
+          <p class="workflow-desc">A structured, reproducible approach to testing software features across sprints.</p>
+
+          <ol class="workflow-steps" aria-label="Testing workflow steps">
+            <li class="workflow-step">
+              <div class="step-badge">1</div>
+              <div class="step-content">
+                <span class="step-name">Requirements &amp; User Stories</span>
+                <span class="step-sub">Analyze acceptance criteria</span>
+              </div>
+            </li>
+            <li class="workflow-step">
+              <div class="step-badge">2</div>
+              <div class="step-content">
+                <span class="step-name">Test Case Writing</span>
+                <span class="step-sub">Scenarios, steps &amp; results</span>
+              </div>
+            </li>
+            <li class="workflow-step">
+              <div class="step-badge">3</div>
+              <div class="step-content">
+                <span class="step-name">Execution</span>
+                <span class="step-sub">Manual &amp; exploratory tests</span>
+              </div>
+            </li>
+            <li class="workflow-step">
+              <div class="step-badge">4</div>
+              <div class="step-content">
+                <span class="step-name">Defect Reporting</span>
+                <span class="step-sub">Severity &amp; root-cause analysis</span>
+              </div>
+            </li>
+            <li class="workflow-step">
+              <div class="step-badge">5</div>
+              <div class="step-content">
+                <span class="step-name">Fix Tracking &amp; Retesting</span>
+                <span class="step-sub">Regression verification</span>
+              </div>
+            </li>
+          </ol>
+
+          <div class="qa-subsection">
+            <h4 class="subsection-title">Test Execution Summary</h4>
+            <p class="subsection-note">Across all projects</p>
+            <div class="table-responsive">
+              <table class="qa-table tc-summary-table" aria-label="Test case execution summary across projects">
+                <thead>
+                  <tr>
+                    <th scope="col">Project</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Testing Focus</th>
+                    <th scope="col">TCs Written &amp; Executed</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Comprehensive Student Consultation Platform</strong></td>
+                    <td><span class="tc-type-badge">Web App</span></td>
+                    <td>Functional Testing &amp; Exploratory Testing</td>
+                    <td><span class="tc-count-badge">90</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>EnroLink</strong></td>
+                    <td><span class="tc-type-badge">Web App</span></td>
+                    <td>Functional Testing &amp; Exploratory Testing</td>
+                    <td><span class="tc-count-badge">54</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>LapSync</strong></td>
+                    <td><span class="tc-type-badge">Hardware</span></td>
+                    <td>Hardware Accuracy &amp; Consistency Testing</td>
+                    <td>
+                      <span class="tc-count-badge">9</span>
+                      <span class="tc-exec-note">written &mdash; executed multiple times through alpha &amp; beta</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured QA Project 1: Student Consultation Platform -->
+        <article class="project-card card-featured fade-in">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">Comprehensive Student Consultation Platform (2025-2026)</h3>
+            </div>
+            <span class="project-date">2025 - 2026</span>
+          </div>
+
+          <p class="project-summary">
+            Designed functional requirements and user stories for student, faculty, and admin roles. Executed 40 manual
+            test cases, documented 18 defects with severity levels, and tracked fixes through retesting.
+          </p>
+
+          <!-- User Stories Subsection -->
+          <div class="qa-subsection">
+            <h4 class="subsection-title">Role-Based User Stories</h4>
+            <p class="subsection-note">Framing clear acceptance criteria to drive targeted functional test suites,
+              organized through Trello.</p>
+
+            <div class="user-stories-grid">
+              <!-- PLACEHOLDER: User Story 1 -->
+              <div class="story-card">
+                <div class="story-role"><span class="pill-role student">Student</span></div>
+                <blockquote class="story-text">
+                  "<strong>[STD - 402]</strong> As a student, i want to put my subject code, section code, and purpose
+                  so that my instructor will be informed</span>."
+                </blockquote>
+              </div>
+
+              <!-- PLACEHOLDER: User Story 2 -->
+              <div class="story-card">
+                <div class="story-role"><span class="pill-role faculty">Instructor</span></div>
+                <blockquote class="story-text">
+                  "<strong>[ITR - 403]</strong> As an instructor, I want to search consultations quickly so I can find
+                  specific records
+                  without scrolling through the entire list."
+                </blockquote>
+              </div>
+
+              <!-- PLACEHOLDER: User Story 3 -->
+              <div class="story-card">
+                <div class="story-role"><span class="pill-role admin">Administrator</span></div>
+                <blockquote class="story-text">
+                  "<strong>[ADN - 401]</strong> As an admin, I want to see all consultations in one page so that I can
+                  easily monitor and manage every request in the system."
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sample Test Case Table -->
+          <!-- PLACEHOLDER: Replace with sanitized test case samples -->
+          <div class="qa-subsection">
+            <div class="subsection-header-flex">
+              <div>
+                <h4 class="subsection-title">Sample Manual Test Cases</h4>
+                <p class="subsection-note">Traceability matrix excerpt demonstrating structured scenario verification.
+                </p>
+              </div>
+              <span class="table-sample-tag">Sample Data Excerpt</span>
+            </div>
+
+            <div class="table-responsive">
+              <table class="qa-table" aria-label="Sample test case execution matrix">
+                <thead>
+                  <tr>
+                    <th scope="col">TC-ID</th>
+                    <th scope="col">Scenario</th>
+                    <th scope="col">Steps to Execute</th>
+                    <th scope="col">Test Data</th>
+                    <th scope="col">Expected Result</th>
+                    <th scope="col">Actual Result</th>
+                    <th scope="col">Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>TC1.1</code></td>
+                    <td>Verify that a student can register an account with an
+                      institutional email using the in-system sign-up form.</td>
+                    <td>1. Navigate to the login page
+                      2. Click the "Create account" link
+                      3. Enter a valid institutional email
+                      4. Enter a valid password
+                      5. Re-enter the same password in Confirm Password
+                      6. Enter First Name and Last Name
+                      7. Check the "Terms and Conditions" box
+                      8. Click the "Sign Up" button</td>
+                    <td>
+                      Email: ********@student.buksu.edu.ph
+                      Password: $Pass123
+                      Confirm Password: $Pass123
+                      First Name: Fern Aila
+                      Last Name: Asiñero
+                    </td>
+                    <td>Student account is created successfully; user is
+                      redirected to the dashboard or verification page and a
+                      success message is displayed.</td>
+                    <td>Account was created successfully, but the user was
+                      redirected to the login page instead of the
+                      dashboard/verification page</td>
+                    <td><span class="status-pill-badge status-fail">Fail</span></td>
+                  </tr>
+                  <tr>
+                    <td><code>TC1.2</code></td>
+                    <td>Verify that sign-up is rejected when the Password
+                      and Confirm Password values do not match.</td>
+                    <td>1. Navigate to the login page
+                      2. Click the "Create account" link
+                      3. Enter a valid institutional email
+                      4. Enter a valid password
+                      5. Enter a different value in Confirm Password
+                      6. Enter First Name and Last Name
+                      7. Check the "Terms and Conditions" box
+                      8. Click the "Sign Up" button</td>
+                    <td>
+                      Email: ********@student.buksu.edu.ph
+                      Password: $Pass123
+                      Confirm Password: $Pass123
+                      First Name: Fern Aila
+                      Last Name: Asiñero
+                    </td>
+                    <td>Account is not created; error message "Passwords do
+                      not match" is displayed; user remains on the sign-up
+                      page and the password fields are cleared.</td>
+                    <td>Account was not created; the "Passwords do not
+                      match" error was displayed, the user remained on the
+                      sign-up page and the fields were cleared.</td>
+                    <td><span class="status-pill-badge status-pass">Pass</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Action Button to View Actual Test Cases File -->
+            <div class="qa-file-action">
+              <a href="assets/qa-docs/Test_Cases.pdf" class="btn btn-outline btn-sm" target="_blank"
+                rel="noopener noreferrer">
+                <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                <span>View Full Test Cases Document</span>
+                <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+              <span class="file-hint-text"></span>
+            </div>
+          </div>
+
+          <!-- Sample Bug Report Card -->
+          <!-- PLACEHOLDER: Replace with sanitized bug report -->
+          <div class="qa-subsection">
+            <h4 class="subsection-title">Sample Bug Report</h4>
+            <p class="subsection-note">Comprehensive bug documentation with root-cause isolation.</p>
+            <div class="bug-report-card">
+              <div class="bug-header">
+                <div class="bug-title-group">
+                  <span class="bug-id">D001</span>
+                </div>
+                <div class="bug-badges">
+                  <span class="badge-severity low">Low Severity</span>
+                  <span class="badge-status open">Open / Under Review</span>
+                </div>
+              </div>
+
+              <dl class="bug-details-grid">
+                <div class="bug-field">
+                  <dt>Bug Description</dt>
+                  <dd>
+                    Student account created successfully; but it
+                    redirect to login page instead of dashboard.
+                    It then resulted to: Students must be able to
+                    sign up their accounts in the system using
+                    their institutional account via in-system login
+                    fields
+                  </dd>
+                </div>
+                <div class="bug-field">
+                  <dt>Root Cause Analysis</dt>
+                  <dd class="result-text">The root cause for this is the route trigerred
+                    after inputting the signup credentials and
+                    clicking the sign-up button, it redirected the
+                    user back to the login ("/login") rather than
+                    the dashboard route ("/dashboard"). This
+                    was intended to prompt users to
+                    reauthenticate themselves before logging in
+                    to test their newly created credentials.
+                    Although this causes an additional workload
+                    for the users.</dd>
+                </div>
+                <div class="bug-field">
+                  <dt>The Fix</dt>
+                  <dd class="root-cause-text">The programmer redirected the route
+                    upon signup from going login to
+                    dashboard. This simplifies the
+                    navigation logic and minimize user
+                    burden upon system navigation. By
+                    also altering the authentication rules
+                    (on signup), it immediately saves user
+                    session upon sign up, rather than
+                    prompting users to signup then
+                    manual loggin in. This then ensures
+                    that the user experience is enhanced.</dd>
+                </div>
+              </dl>
+            </div>
+
+            <!-- Action Button to View Actual Bug Report File -->
+            <div class="qa-file-action">
+              <a href="assets/qa-docs/Bug_Resolution.pdf" class="btn btn-outline btn-sm" target="_blank"
+                rel="noopener noreferrer">
+                <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                <span>View Full Bug Report Document</span>
+                <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">Automated Usability &amp; Accessibility Audits</h3>
+            </div>
+          </div>
+
+          <dl class="bug-details-grid audit-details">
+            <div class="bug-field">
+              <dt>Tools Used</dt>
+              <dd>WAVE (WebAIM), PowerMapper SortSite, Web Content Accessibility Guidelines (WCAG 2.1).</dd>
+            </div>
+            <div class="bug-field">
+              <dt>Scope of Analysis</dt>
+              <dd>
+                <div class="audit-scope-block">
+                  <span class="audit-scope-label">Accessibility (a11y)</span>
+                  <span>Evaluated color contrast ratios, missing ARIA labels, semantic HTML tags, and keyboard
+                    navigation barriers.</span>
+                </div>
+                <div class="audit-scope-block">
+                  <span class="audit-scope-label">Usability &amp; Standards</span>
+                  <span>Identified broken links, cross-browser CSS/JS compatibility issues, SEO structure errors, and
+                    W3C code compliance errors.</span>
+                </div>
+              </dd>
+            </div>
+            <div class="bug-field">
+              <dt>Deliverables</dt>
+              <dd>Structured audit reports with accessibility and usability scores</dd>
+            </div>
+          </dl>
+
+          <!-- Audit Evidence Image Placeholders -->
+          <div class="qa-subsection">
+            <h4 class="subsection-title">Audit Evidence</h4>
+            <div class="audit-img-grid">
+              <img src="assets/qa-docs/AccessibilityAudit.png">
+              <img src="assets/qa-docs/UsabilityAudit.png">
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">LapSync (2025-present)</h3>
+            </div>
+            <span class="project-date">2025 - Present</span>
+          </div>
+          <p class="project-summary">
+            Tested 4 hardware features through 9 total test cases, with documented results and issues. Reviewed
+            the
+            interface
+            for consistency and brand alignment. Wrote technical documentation to support the team's development and the
+            capstone paper. Developed the project's visual identity and design materials.
+          </p>
+
+          <!-- LapSync Co-Design / Technical Writing Image Placeholders -->
+          <div class="qa-subsection">
+            <h4 class="subsection-title">Documentation &amp; Design Work</h4>
+            <div class="audit-img-grid">
+              <img src="assets/qa-docs/LapSyncTest1.png">
+              <img src="assets/qa-docs/LapSyncTest2.png">
+              <img src="assets/qa-docs/LapSyncBrochure.png">
+              <img src="assets/qa-docs/LapSyncUI.png">
+            </div>
+          </div>
+
+          <div class="project-tags">
+            <span class="tag">Hardware &amp; Software Integration</span>
+            <span class="tag">UI Consistency Review</span>
+            <span class="tag">Usability Testing</span>
+            <span class="tag">Technical Writing</span>
+          </div>
+        </article>
+
+        <!-- Skills & Tools Overview -->
+        <aside class="skills-card fade-in" aria-label="QA Skills and Tools">
+          <h3 class="skills-card-title">QA Capabilities &amp; Toolset</h3>
+          <div class="skills-two-col">
+            <div class="skills-group">
+              <h4 class="skills-heading">Testing Competencies</h4>
+              <ul class="skills-tags-list">
+                <li class="skill-tag">Manual Testing</li>
+                <li class="skill-tag">Test Case Writing &amp; Execution</li>
+                <li class="skill-tag">Bug Reporting &amp; Defect Tracking</li>
+                <li class="skill-tag">Exploratory Testing</li>
+                <li class="skill-tag">UI / Usability Testing</li>
+                <li class="skill-tag">Requirements &amp; User Stories</li>
+              </ul>
+            </div>
+            <div class="skills-group">
+              <h4 class="skills-heading">Tools &amp; Learning Track</h4>
+              <ul class="skills-tags-list">
+                <li class="skill-tag">Postman</li>
+                <li class="skill-tag">Figma</li>
+                <li class="skill-tag">Basic SQL</li>
+                <li class="skill-tag skill-learning"><span class="learning-indicator"></span> Open to Learning:
+                  Automated Testing</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Quick-Scan Test Execution Summary Table -->
+
+
+        </aside>
+
+
+
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- SECTION 3: GAME DEVELOPMENT                                      -->
+    <!-- ================================================================= -->
+    <section id="game" class="section game-section" aria-labelledby="game-heading">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 id="game-heading" class="section-title">Game Development</h2>
+          <p class="section-subtitle">Crafting immersive top-down interactive worlds from code to character sprites.</p>
+        </div>
+
+        <article class="project-card card-featured fade-in">
+          <div class="project-header">
+            <div>
+              <span class="badge badge-primary">Featured Game Project</span>
+              <h3 class="project-title">Warden of the Wild</h3>
+            </div>
+            <div class="project-meta-pills">
+              <span class="badge badge-role">Main Programmer &amp; Game Artist</span>
+            </div>
+          </div>
+
+          <p class="project-summary">
+            A top-down adventure game where players navigate three trial chambers, each with unique obstacles and
+            formidable enemies, culminating in a final boss showdown. I was the main programmer and game artist —
+            writing the code, drawing the sprites, designing the characters, and building the maps.
+          </p>
+
+          <div class="game-meta-row">
+            <div class="meta-item">
+              <span class="meta-label">Core Technologies:</span>
+              <span class="meta-value">Java</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Role:</span>
+              <span class="meta-value">Main Programmer &amp; Game Artist</span>
+            </div>
+          </div>
+
+          <div class="gameplay-hero-box">
+            <div class="media">
+              <video src="assets/game/gameplay.mp4" autoplay muted loop>
+            </div>
+          </div>
+
+          <!-- Three Screenshot Placeholders in Grid -->
+          <div class="chamber-grid">
+            <div class="chamber-card">
+              <div class="media">
+                <img src="assets/game/ss1.png">
+              </div>
+            </div>
+            <div class="chamber-card">
+              <div class="media">
+                <img src="assets/game/ss2.png">
+              </div>
+            </div>
+            <div class="chamber-card">
+              <div class="media">
+                <img src="assets/game/ss3.png">
+              </div>
+            </div>
+
+
+          </div>
+
+          <!-- Sprite & Character Gallery (4 image placeholders in a row) -->
+          <div class="sprite-gallery-wrapper">
+            <h4 class="sprite-gallery-title">Sprite &amp; Character Asset Gallery</h4>
+            <p class="sprite-gallery-sub">Custom 2D sprites, enemy designs, and animation frames drawn for Warden of
+              the
+              Wild.</p>
+
+            <div class="sprite-gallery-grid">
+              <div class="sprite-card">
+                <div>
+                  <video src="assets/game/sprites.mp4" autoplay mute loop>
+                </div>
+                <span class="sprite-name">Protagonists</span>
+              </div>
+
+              <div class="sprite-card">
+                <div>
+                  <img src="assets/game/proDet.png">
+                </div>
+                <span class="sprite-name">Character Portraits</span>
+              </div>
+
+              <div class="sprite-card">
+                <div>
+                  <img src="assets/game/monsters.png">
+                </div>
+                <span class="sprite-name">Chamber Mobs</span>
+              </div>
+
+              <div class="sprite-card">
+                <div>
+                  <video src="assets/game/boss.mp4" autoplay muted loop></video>
+                </div>
+                <span class="sprite-name">Trial Final Boss</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- SECTION 4: DESIGN                                                 -->
+    <!-- ================================================================= -->
+    <section id="design" class="section design-section" aria-labelledby="design-heading">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 id="design-heading" class="section-title">Design</h2>
+          <p class="section-subtitle">Visual storytelling, presentation strategy, and user interface architecture.</p>
+        </div>
+
+        <!-- Featured Design: LapSync Pitch Deck -->
+        <article class="project-card card-featured fade-in">
+          <div class="project-header">
+            <div>
+              <span class="badge badge-award">Award-Winning Presentation</span>
+              <h3 class="project-title">LapSync Pitch Deck — BukSU InnoVenture 2025</h3>
+            </div>
+            <span class="award-pill">Best Pitch Deck &bull; 1 of 16 Teams</span>
+          </div>
+
+          <p class="project-summary">
+            Designed the full pitch deck as main designer. Won Best Pitch Deck out of 16 participating teams with
+            structured typography, coherent brand palettes, and persuasive data visualizations.
+          </p>
+
+          <!-- Embed Placeholder for Pitch Deck -->
+          <!-- [ADD: Canva embed or screenshot of pitch deck] -->
+          <div class="deck-embed-wrapper">
+            <div class="media">
+              <video src="assets/design/pitchdeck.mp4" autoplay muted loop></video>
+            </div>
+          </div>
+        </article>
+
+        <!-- Secondary Design Work: UI/UX & Sprites -->
+        <div class="design-subgrid">
+          <!-- UI/UX Work -->
+          <article class="project-card fade-in">
+            <div class="project-header">
+              <div>
+                <span class="badge badge-accent">UI/UX Prototyping</span>
+                <h3 class="project-title">Interface Design &amp; Wireframes</h3>
+              </div>
+            </div>
+
+            <p class="project-summary">
+              Figma mockups and wireframes — translating complex workflows into intuitive, accessible user interfaces
+              with clean information hierarchies and responsive grids.
+            </p>
+
+            <!-- Figma Embed Placeholder -->
+            <!-- [ADD: Figma embed or screenshots] -->
+            <div class="media">
+              <img src="assets/design/ui1.png">
+            </div>
+            <div class="media">
+              <img src="assets/design/ui2.png">
+            </div>
+          </article>
+
+          <!-- Sprites & Character Art Connection -->
+          <article class="project-card fade-in">
+            <div class="project-header">
+              <div>
+                <span class="badge badge-accent">Game Art &amp; Illustration</span>
+                <h3 class="project-title">Sprites &amp; Character Art</h3>
+              </div>
+            </div>
+
+            <p class="project-summary">
+              Handcrafted 2D pixel art created specifically
+              for video game production.
+            </p>
+
+            <div class="media">
+              <img src="assets/design/2dArt.png">
+          </article>
+        </div>
+
+        <!-- Design Tools & Skills Strip -->
+        <aside class="design-tools-card fade-in" aria-label="Design Skills and Tools">
+          <div class="design-tools-content">
+            <div>
+              <h3 class="tools-heading">Design Skills &amp; Competencies</h3>
+              <ul class="skills-tags-list">
+                <li class="skill-tag">Canva</li>
+                <li class="skill-tag">Figma</li>
+                <li class="skill-tag">Typography &amp; Layout</li>
+                <li class="skill-tag">Color Theory</li>
+                <li class="skill-tag">Presentation Design</li>
+              </ul>
+            </div>
+
+            <div class="tools-cta">
+              <a href="https://iguana-2vgq2w.my.canva.site/" class="btn btn-primary" target="_blank"
+                rel="noopener noreferrer">
+                Full Canva Portfolio &rarr;
+              </a>
+            </div>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- SECTION 5: CERTIFICATIONS & NETWORKING                            -->
+    <!-- ================================================================= -->
+    <section id="certifications" class="section cert-section" aria-labelledby="cert-heading">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 id="cert-heading" class="section-title">Certifications &amp; Networking</h2>
+          <p class="section-subtitle">Verified credentials across network architecture, testing methodologies, and
+            artificial intelligence.</p>
+        </div>
+
+        <!-- Networking Note -->
+        <div class="networking-note-card fade-in">
+          <div class="note-icon" aria-hidden="true">&#9670;</div>
+          <p class="networking-note-text">
+            Background in fundamental networking concepts — routing, switching, and wireless essentials — through
+            the
+            Cisco Networking Academy curriculum.
+          </p>
+        </div>
+
+        <!-- 4 Certification Cards Grid -->
+        <div class="certs-grid">
+          <!-- Cert 1: CCNA Intro -->
+          <article class="cert-card fade-in">
+            <div class="media">
+              <img src="assets/certs/introCert.png">
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">Cisco / Cisco Networking Academy</span>
+              <h3 class="cert-name">CCNA: Introduction to Networks</h3>
+              <p class="cert-desc">IP addressing, Ethernet protocols, OSI model layers, and initial router/switch
+                configuration.</p>
+            </div>
+          </article>
+
+          <!-- Cert 2: CCNA SRWE -->
+          <article class="cert-card fade-in">
+            <div class="media">
+              <img src="assets/certs/switchCert.png">
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">Cisco / Cisco Networking Academy</span>
+              <h3 class="cert-name">CCNA: Switching, Routing, and Wireless Essentials</h3>
+              <p class="cert-desc">VLANs, STP, EtherChannel, routing protocols, WLAN security, and network management.
+              </p>
+            </div>
+          </article>
+
+          <!-- Cert 3: Software Testing -->
+          <article class="cert-card fade-in">
+            <div class="media">
+              <img src="assets/certs/udemy.png">
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">Udemy &bull; June 2026</span>
+              <h3 class="cert-name">Introduction to Software Testing and Software QA</h3>
+              <p class="cert-desc">Test case development, bug lifecycle tracking, black-box techniques, and verification
+                workflows.</p>
+            </div>
+          </article>
+
+          <!-- Cert 4: AI Literacy -->
+          <article class="cert-card fade-in">
+            <div class="media">
+              <img src="assets/certs/mapuaCert.png">
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">MAPUA University &bull; September 2026</span>
+              <h3 class="cert-name">Introduction to AI Literacy and Responsible Use</h3>
+              <p class="cert-desc">Ethical AI deployment, governance principles, prompt engineering, and bias mitigation
+                strategies.</p>
+            </div>
+          </article>
+        </div>
+
+
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================================================================= -->
+  <!-- FOOTER                                                            -->
+  <!-- ================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+
+      <!-- Footer Brand Column -->
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo">Fern Aila Asiñero</a>
+        <p class="footer-tagline">IT student who tests, builds, and designs software.</p>
+      </div>
+
+      <!-- Footer Quick Navigation -->
+      <nav class="footer-nav" aria-label="Footer quick links">
+        <ul class="footer-links-list">
+          <li><a href="#home" class="footer-link">Home</a></li>
+          <li><a href="#qa" class="footer-link">QA</a></li>
+          <li><a href="#game" class="footer-link">Game Dev</a></li>
+          <li><a href="#design" class="footer-link">Design</a></li>
+          <li><a href="#certifications" class="footer-link">Certifications</a></li>
+        </ul>
+      </nav>
+
+      <!-- Footer Contact & External Links -->
+      <div class="footer-contact">
+        <div class="footer-links-inline">
+          <a href="mailto:fernasinero@gmail.com" class="footer-contact-link">fernasinero@gmail.com</a>
+          <span class="footer-divider">&bull;</span>
+          <a href="https://iguana-2vgq2w.my.canva.site/" class="footer-contact-link" target="_blank"
+            rel="noopener noreferrer">Canva Portfolio &nearr;</a>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom">
+        <p class="copyright-text">&copy; 2026 Fern Aila Asiñero. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
